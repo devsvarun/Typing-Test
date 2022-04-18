@@ -24,7 +24,6 @@ const Text = ({ wordString, correct, index, backspace, finished }) => {
     elem.style.boxShadow = ""
   }
   else {
-    console.log(backspace)
     elem = document.getElementById(index - 1)
     prevElem = document.getElementById(index - 2)
     if (elem) {
