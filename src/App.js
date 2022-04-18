@@ -127,7 +127,7 @@ function App() {
     const audioOn = localStorage.getItem("audioOn") === "true";
     setAudioOn(audioOn)
   }, [])
-  console.log(fetchFailed)
+
 
   return (
     <div className="App" style={{ backgroundColor: theme.backgroundColor, color: theme.color }}>
