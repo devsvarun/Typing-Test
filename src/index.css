@@ -5,9 +5,82 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Text {
+  position: fixed;
+  top: 20%;
+  margin-left: 5vw;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  line-height: 3rem;
+  text-align: left;
+  max-width: 90vw;
+  max-height: 60vh;
+  overflow: auto;
+}
+
+.audio-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: 3px solid;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.theme-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  transform: translate(-100%, 0);
+  border: 3px solid;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.restart-btn {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 3px solid;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.wpm {
+  position: fixed;
+  display: flex;
+  bottom: 20%;
+  left: 50%;
+  gap: 10px;
+  transform: translate(-50%, 0);
+  font-size: 35px;
+}
+
+@media screen and (max-width: 455px),
+(max-height: 600px) {
+  .wpm {
+    bottom: 5%;
+  }
+}
+
+.ErrorPage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#error-msg {
+  margin-top: 50px;
 }
