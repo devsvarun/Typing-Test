@@ -1,3 +1,8 @@
+# [Typing Test](https://devsvarun.github.io/Typing-Test/)
+A simple typing test app using [random-word-api](http://random-word-api.herokuapp.com) with NK Cream key sounds and customized dark and light theme.
+<br/>
+<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
